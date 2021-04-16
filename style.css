@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+
+body {
+	background-color: rgb(6, 15, 55);
+	font-family: 'Zen Dots', cursive;
+	margin: 0px;
+}
+h1, h2 {
+	color: rgb(219, 29, 29);
+	margin-top: 0px;
+	text-align: center;
+}
+
+h1 {
+	padding-top: 55px
+}
+h3 {
+	text-align: center;
+	color: white;
+}
+p {
+	color: white;
+	text-align: center;
+	margin: 5px;
+}
+.container {
+	width: 1100px;
+	margin: 0 auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.banner {
+	background-image: url('../images/steam.jpg');
+	background-size: cover;
+	height: 80vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.banner1 {
+	background-image: url('../images/riot.jpeg');
+	background-size: cover;
+	height: 80vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.banner2 {
+	background-image: url('../images/blizzard.jpg');
+	background-size: cover;
+	height: 80vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.cards {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	grid-gap: 10px;
+}
+
+.card {
+	text-align: center;
+	width: 320px;
+	background-color: rgb(47, 49, 60);
+	padding: 10px;
+	border-radius: 7px;
+	box-shadow: 0px 0px 8px 5px rgba(0, 0, 0, 50%)
+}
+
+.card img {
+	height: 150px
+}
+
+
+#btn-enter {
+	background-color: black;
+	color: white;
+	padding: 16px;
+	border-radius: 7px;
+	text-decoration: none;
+	display: block;
+	width: 150px;
+	margin: 10px auto;
+	text-align: center;
+	border: 1px solid black;
+	transition: 1s;
+}
+
+#btn-enter:hover {
+	background-color: white;
+	color: black;
+	transition: 1s;
+}
+
+.foot {
+	text-align: center;
+	background-color: rgb(47, 49, 60);
+	padding: 20px;
+	position: sticky;
+	object-position: bottom;
+}
+.navbar {
+	background-color: rgb(6, 15, 55);
+	height: 10vh;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: sticky;
+	top: 0;
+}
+.navbar img {
+	height: 62px
+}
+.links {
+	width: 95%;
+	display: flex;
+	justify-content: space-around;
+}
+
+.links a {
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+}
+
+a {
+text-decoration: none;
+	color: white;	
+}
+
